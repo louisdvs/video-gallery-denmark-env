@@ -35,9 +35,9 @@ export default function App() {
           {videos.map((video) => (
             <a
               key={video}
-              data-lg-size="1280-720"
-              data-video={`{"source": [{"src":"/video/${video}.mp4", "type":"video/mp4"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}`}
-              data-poster={`/video/thumb/${video}.jpg`}
+              data-lg-size="1920-1080"
+              data-video={`{"source": [{"src":"./video/${video}.mp4", "type":"video/mp4"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}`}
+              data-poster={`./video/thumb/${video}.jpg`}
               data-sub-html={`<h4>'${video} Season</h4>`}
             >
               <img
@@ -45,7 +45,7 @@ export default function App() {
                 height="320"
                 style={{ margin: 10 }}
                 class="img-responsive"
-                src={`/thumb/${video}.jpg`}
+                src={`./thumb/${video}.jpg`}
                 alt={`${video} Season`}
               />
             </a>
