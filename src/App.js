@@ -23,9 +23,37 @@ export default function App() {
     <div
       className="App"
       style={{
-        marginTop: 100,
+        marginTop: 80,
       }}
     >
+      <div
+        style={{
+          display: "flex",
+          gap: 10,
+          rowGap: "10px",
+          columnGap: 20,
+          marginBottom: 40,
+        }}
+      >
+        <img
+          src="./dec-logo.jpeg"
+          alt="logo"
+          style={{ height: 150, marginLeft: 100 }}
+        />
+        <h1
+          style={{
+            flex: 1,
+            fontSize: "4rem",
+            textAlign: "center",
+            font: "bold 80px Avenir",
+            color: "#fdd637",
+            textShadow: "2px 2px 3px #000000c9",
+          }}
+        >
+          Six Seasons Project
+        </h1>
+        <img src="./lottery-west.jpeg" alt="logo" style={{ height: 150 }} />
+      </div>
       <div className="galleryContainer">
         <LightGallery
           onInit={onInit}

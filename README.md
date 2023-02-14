@@ -1,3 +1,22 @@
+# Six Seasons Video Display
+
+This repo is set up for the six seasons project to display the work they have done in offline environments (e.g. at the shop or visitor center).
+
+# Video files
+
+To get this project running, you will need to add all video files under `/public/videos`
+Video names must match the thumbnails images e.g. Durak.jpeg -> Durak.mp4
+
+To share this project, install yarn (google it) then run the commands:
+`yarn`
+followed by
+`yarn build`
+Then the index.html in the build directory will run the page.
+
+To learn more about create react app, read on:
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
