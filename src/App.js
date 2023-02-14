@@ -45,7 +45,7 @@ export default function App() {
                 height="320"
                 style={{ margin: 10 }}
                 class="img-responsive"
-                src={`/video/thumb/${video}.jpg`}
+                src={`/thumb/${video}.jpg`}
                 alt={`${video} Season`}
               />
             </a>
