@@ -12,7 +12,7 @@ import lgThumbnail from "lightgallery/plugins/thumbnail"
 import lgZoom from "lightgallery/plugins/zoom"
 import lgVideo from "lightgallery/plugins/video"
 
-const videos = ["Birak", "Bunuru", "Djeran", "Djilba", "Kambarang", "Makuru"]
+const videos = ["Birak", "Bunuru", "Djeran", "Makuru", "Djilba", "Kambarang"]
 
 export default function App() {
   const onInit = () => {
