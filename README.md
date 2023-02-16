@@ -1,6 +1,11 @@
-# Six Seasons Video Display
+# Offline Video Kiosk Display
 
 This repo is set up for the six seasons project to display the work they have done in offline environments (e.g. at the shop or visitor center).
+
+You could repurpose this by adding two directories in the `/public` dir:
+ `videos` a set of .mp4 files
+ `thumb` a set of .jpeg images with a 1:1 video->thumbnail.
+And then updating the list of videos in `src/config.js`
 
 # Video files
 
