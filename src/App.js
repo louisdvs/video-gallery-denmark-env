@@ -59,20 +59,22 @@ export default function App() {
           onInit={onInit}
           speed={500}
           plugins={[lgThumbnail, lgZoom, lgVideo]}
+          licenseKey={process.env.REACT_APP_LIGHT_GALLERY_KEY}
         >
           {videos.map((video) => (
+            // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <a
               key={video}
               data-lg-size="1920-1080"
               data-video={`{"source": [{"src":"./video/${video}.mp4", "type":"video/mp4"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}`}
-              data-poster={`./video/thumb/${video}.jpg`}
-              data-sub-html={`<h4>'${video} Season</h4>`}
+              data-poster={`./thumb/${video}.jpg`}
+              data-sub-html={`<h4>${video} Season</h4>`}
             >
               <img
                 width="600"
                 height="320"
                 style={{ margin: 10 }}
-                class="img-responsive"
+                className="img-responsive"
                 src={`./thumb/${video}.jpg`}
                 alt={`${video} Season`}
               />
