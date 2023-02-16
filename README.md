@@ -10,7 +10,7 @@ You could repurpose this by adding two directories in the `/public` dir:
 - `/videos` a set of `.mp4` files
 -  `/thumb` a set of `.jpeg` images with a 1:1 video->thumbnail.
 
-And updating `videos` constant in `src/config.js`
+And updating `videos` constant in [`src/config.js`](/src/config.js)
 
 ## Video files
 
