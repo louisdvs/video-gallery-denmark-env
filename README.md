@@ -17,11 +17,16 @@ Video names must match the thumbnails images e.g. Durak.jpeg -> Durak.mp4
 
 ## Building the project 
 
-To share this project, install yarn (google it) then run the commands:
+To share this project, install `yarn` (google it) then run the commands:
+
 `yarn`
-followed by
+
+followed by:
+
 `yarn build`
-Then the index.html in the build directory will run the page.
+
+Then opening the index.html file in the build directory will run the page. 
+We have run this on a guest account on a USB drive (to ensure that files aren't deleted between logins).
 
 To learn more about create react app, read on:
 
