@@ -12,7 +12,7 @@ import lgThumbnail from "lightgallery/plugins/thumbnail"
 import lgZoom from "lightgallery/plugins/zoom"
 import lgVideo from "lightgallery/plugins/video"
 
-const videos = ["Birak", "Bunuru", "Djeran", "Makuru", "Djilba", "Kambarang"]
+import videos from "./config"
 
 export default function App() {
   const onInit = () => {
@@ -58,7 +58,7 @@ export default function App() {
         <LightGallery
           onInit={onInit}
           speed={500}
-          plugins={[lgThumbnail, lgZoom, lgVideo]}
+          plugins={[lgThumbnail, lgVideo]}
           licenseKey={process.env.REACT_APP_LIGHT_GALLERY_KEY}
         >
           {videos.map((video) => (
