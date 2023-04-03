@@ -9,10 +9,9 @@ import "lightgallery/css/lg-thumbnail.css"
 import "lightgallery/css/lg-video.css"
 
 import lgThumbnail from "lightgallery/plugins/thumbnail"
-import lgZoom from "lightgallery/plugins/zoom"
 import lgVideo from "lightgallery/plugins/video"
 
-import videos from "./config"
+import { videos } from "./config"
 
 export default function App() {
   const onInit = () => {
